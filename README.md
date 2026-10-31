@@ -1,4 +1,4 @@
-# 0xinsider-com
+# 0xinsider
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,168 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-0xinsider-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://0xinsider.com/
+0xinsider provides Polymarket sports and esports analytics via a public API. It offers wallet grades, market activity, daily picks, large trade data, and statistical insights across major US leagues and esports. The platform delivers real‑time data, performance metrics, and a sandbox for developers to explore without an API key.
+
+**Areas:** Sports · Esports · Analytics · API · Finance
+
+## 0xinsider on APIs.io
+
+Everything profiled for 0xinsider is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/0xinsider-com/](https://apis.io/providers/0xinsider-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (21)
+
+- [0xinsider Account API](https://apis.io/apis/0xinsider-com/0xinsider-com-account-api/) — Identify the account and credential authenticated for a paid API request.
+- [0xinsider Combos API](https://apis.io/apis/0xinsider-com/0xinsider-com-combos-api/) — Polymarket multi-leg combo fills, details, and live counts.
+- [0xinsider Content API](https://apis.io/apis/0xinsider-com/0xinsider-com-content-api/) — Search across 0xinsider editorial content.
+- [0xinsider Events API](https://apis.io/apis/0xinsider-com/0xinsider-com-events-api/) — Durable public event replay streams.
+- [0xinsider Games API](https://apis.io/apis/0xinsider-com/0xinsider-com-games-api/) — Sports and esports games: both sides, schedules, provider status and the Polymarket markets linked to each game.
+- [0xinsider Insider Radar API](https://apis.io/apis/0xinsider-com/0xinsider-com-insider-radar-api/) — Deprecated spelling of Suspicious trades; both operations stay live as aliases until their 2027-02-01 sunset (#29351).
+- [0xinsider Large Positions API](https://apis.io/apis/0xinsider-com/0xinsider-com-large-positions-api/) — Largest current open positions from graded traders (Polymarket-only).
+- [0xinsider Large trades API](https://apis.io/apis/0xinsider-com/0xinsider-com-large-trades-api/) — Recent and historical large trades.
+- [0xinsider Leaderboard API](https://apis.io/apis/0xinsider-com/0xinsider-com-leaderboard-api/) — Ranked trader discovery and category/strategy leaderboards.
+- [0xinsider Markets API](https://apis.io/apis/0xinsider-com/0xinsider-com-markets-api/) — Market search, discovery, snapshots, and sharp-money flow.
+- [0xinsider MCP API](https://apis.io/apis/0xinsider-com/0xinsider-com-mcp-api/) — Remote Model Context Protocol transport.
+- [0xinsider Onboarding API](https://apis.io/apis/0xinsider-com/0xinsider-com-onboarding-api/) — Self-serve agent registration: a sandbox key with no account, and the path to live access.
+- [0xinsider Pick of the Day API](https://apis.io/apis/0xinsider-com/0xinsider-com-pick-of-the-day-api/) — One sourced sharp-money call a day: the side profitable wallets are backing, with pre-game odds, the holders, and the track record.
+- [0xinsider Positions API](https://apis.io/apis/0xinsider-com/0xinsider-com-positions-api/) — Current prediction-market position snapshots from backend-owned mirrors.
+- [0xinsider Reports API](https://apis.io/apis/0xinsider-com/0xinsider-com-reports-api/) — Daily, weekly, monthly, and trader export report snapshots.
+- [0xinsider Streaming API](https://apis.io/apis/0xinsider-com/0xinsider-com-streaming-api/) — Resumable real-time Server-Sent Events stream of live feed envelopes.
+- [0xinsider Suspicious trades API](https://apis.io/apis/0xinsider-com/0xinsider-com-suspicious-trades-api/) — Trades whose recorded suspicion score meets the live flag threshold.
+- [0xinsider System API](https://apis.io/apis/0xinsider-com/0xinsider-com-system-api/) — Health and operational status checks.
+- [0xinsider Traders API](https://apis.io/apis/0xinsider-com/0xinsider-com-traders-api/) — Traders, batch lookups, timelines, and export readiness.
+- [0xinsider Usage API](https://apis.io/apis/0xinsider-com/0xinsider-com-usage-api/) — Developer API budget and usage introspection.
+- [0xinsider Webhooks API](https://apis.io/apis/0xinsider-com/0xinsider-com-webhooks-api/) — Signed builder webhook destinations and delivery controls.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [0Xinsider Com Webhooks](https://apis.io/asyncapis/0xinsider-com/0xinsider-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [0Xinsider Com Agentic Access](https://apis.io/agentic-access/0xinsider-com/0xinsider-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [MarketSnapshot](https://apis.io/schemas/0xinsider-com/0xinsider-com-market-snapshot/)
+- [PickOfTheDay](https://apis.io/schemas/0xinsider-com/0xinsider-com-pick-of-the-day/)
+- [Trader](https://apis.io/schemas/0xinsider-com/0xinsider-com-trader/)
+- [TraderContext](https://apis.io/schemas/0xinsider-com/0xinsider-com-trader-context/)
+- [TraderExportJob](https://apis.io/schemas/0xinsider-com/0xinsider-com-trader-export-job/)
+- [TraderPnl](https://apis.io/schemas/0xinsider-com/0xinsider-com-trader-pnl/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [0Xinsider Com Context](https://apis.io/jsonld/0xinsider-com/0xinsider-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [0xinsider API Rules](https://apis.io/rules/0xinsider-com/0xinsider-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [0Xinsider Com Authentication](https://apis.io/security/0xinsider-com/0xinsider-com-authentication/)
+- [0Xinsider Com Domain Security](https://apis.io/security/0xinsider-com/0xinsider-com-domain-security/)
+- [0Xinsider Com Vulnerability Disclosure](https://apis.io/security/0xinsider-com/0xinsider-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [0Xinsider Com Scopes](https://apis.io/scopes/0xinsider-com/0xinsider-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [0Xinsider Com Plans Pricing](https://apis.io/plans/0xinsider-com/0xinsider-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [0Xinsider Com Rate Limits](https://apis.io/rate-limits/0xinsider-com/0xinsider-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://0xinsider.com/)
+- [Documentation](https://docs.0xinsider.com/)
+- [Getting started](https://docs.0xinsider.com/quickstart.md)
+- [API reference](https://docs.0xinsider.com/api-reference/introduction.md)
+- [Pricing](https://0xinsider.com/pricing)
+- [Sign up](https://api.0xinsider.com/api/v1/agents/register)
+- [Security](https://0xinsider.com/security)
+- [Privacy policy](https://0xinsider.com/privacy-policy)
+- [GitHub](https://github.com/0xinsider)
+
+## API Evangelist rating
+
+**Kin Score 74.1** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 72.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 67.9 |
+| Developer ergonomics | 77.9 |
+| Access clarity | 62.6 |
+
+**Agent readiness 79.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 36.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/0xinsider-com/](https://apis.io/providers/0xinsider-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 0xinsider: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/0xinsider-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
