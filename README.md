@@ -66,7 +66,7 @@
 
 0xinsider provides Polymarket sports and esports analytics via a public API. It offers wallet grades, market activity, daily picks, large trade data, and statistical insights across major US leagues and esports. The platform delivers real‑time data, performance metrics, and a sandbox for developers to explore without an API key.
 
-**Areas:** Sports · Esports · Analytics · API · Finance
+**Areas:** Sports · Esports · Analytics · Finance
 
 ## 0xinsider on APIs.io
 
@@ -106,22 +106,48 @@ Event-driven and webhook contracts.
 
 - [0Xinsider Com Webhooks](https://apis.io/asyncapis/0xinsider-com/0xinsider-com-webhooks/)
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [0xinsider-com-mcp.yml](https://apis.io/servers/0xinsider-com/0xinsider-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [0Xinsider Com Agentic Access](https://apis.io/agentic-access/0xinsider-com/0xinsider-com-agentic-access/)
+- [0xinsider Agentic Access](https://apis.io/agentic-access/0xinsider-com/0xinsider-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (36)
 
 The data models the API reads and writes.
 
+- [AccountIdentity](https://apis.io/schemas/0xinsider-com/0xinsider-com-account-identity/)
+- [AgentRegistration](https://apis.io/schemas/0xinsider-com/0xinsider-com-agent-registration/)
+- [ApiDiscovery](https://apis.io/schemas/0xinsider-com/0xinsider-com-api-discovery/)
+- [ComboFillsResponse](https://apis.io/schemas/0xinsider-com/0xinsider-com-combo-fills-response/)
+- [ComboResponse](https://apis.io/schemas/0xinsider-com/0xinsider-com-combo-response/)
+- [CombosSummaryResponse](https://apis.io/schemas/0xinsider-com/0xinsider-com-combos-summary-response/)
+- [ContentSearchResult](https://apis.io/schemas/0xinsider-com/0xinsider-com-content-search-result/)
+- [CounterpartyAnalysis](https://apis.io/schemas/0xinsider-com/0xinsider-com-counterparty-analysis/)
+- [CounterpartyMakerPage](https://apis.io/schemas/0xinsider-com/0xinsider-com-counterparty-maker-page/)
+- [CreateWebhookRequest](https://apis.io/schemas/0xinsider-com/0xinsider-com-create-webhook-request/)
+- [DataQuality](https://apis.io/schemas/0xinsider-com/0xinsider-com-data-quality/)
+- [EventReplayEvent](https://apis.io/schemas/0xinsider-com/0xinsider-com-event-replay-event/)
+- [EventReplayMeta](https://apis.io/schemas/0xinsider-com/0xinsider-com-event-replay-meta/)
+- [Game](https://apis.io/schemas/0xinsider-com/0xinsider-com-game/)
+- [GamesCoverage](https://apis.io/schemas/0xinsider-com/0xinsider-com-games-coverage/)
+- [LargePosition](https://apis.io/schemas/0xinsider-com/0xinsider-com-large-position/)
+- [LargeTrade](https://apis.io/schemas/0xinsider-com/0xinsider-com-large-trade/)
+- [LargeTradeHistoryMeta](https://apis.io/schemas/0xinsider-com/0xinsider-com-large-trade-history-meta/)
+- [LeaderboardEntry](https://apis.io/schemas/0xinsider-com/0xinsider-com-leaderboard-entry/)
 - [MarketSnapshot](https://apis.io/schemas/0xinsider-com/0xinsider-com-market-snapshot/)
 - [PickOfTheDay](https://apis.io/schemas/0xinsider-com/0xinsider-com-pick-of-the-day/)
-- [Trader](https://apis.io/schemas/0xinsider-com/0xinsider-com-trader/)
-- [TraderContext](https://apis.io/schemas/0xinsider-com/0xinsider-com-trader-context/)
-- [TraderExportJob](https://apis.io/schemas/0xinsider-com/0xinsider-com-trader-export-job/)
-- [TraderPnl](https://apis.io/schemas/0xinsider-com/0xinsider-com-trader-pnl/)
+- [Platforms](https://apis.io/schemas/0xinsider-com/0xinsider-com-platforms/)
+- [Position](https://apis.io/schemas/0xinsider-com/0xinsider-com-position/)
+- [ReportSnapshot](https://apis.io/schemas/0xinsider-com/0xinsider-com-report-snapshot/)
+- [ResponseMeta](https://apis.io/schemas/0xinsider-com/0xinsider-com-response-meta/)
+- …and 11 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -139,27 +165,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [0Xinsider Com Authentication](https://apis.io/security/0xinsider-com/0xinsider-com-authentication/)
-- [0Xinsider Com Domain Security](https://apis.io/security/0xinsider-com/0xinsider-com-domain-security/)
-- [0Xinsider Com Vulnerability Disclosure](https://apis.io/security/0xinsider-com/0xinsider-com-vulnerability-disclosure/)
+- [0xinsider Authentication](https://apis.io/security/0xinsider-com/0xinsider-com-authentication/)
+- [0xinsider Domain Security](https://apis.io/security/0xinsider-com/0xinsider-com-domain-security/)
+- [0xinsider Vulnerability Disclosure](https://apis.io/security/0xinsider-com/0xinsider-com-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [0Xinsider Com Scopes](https://apis.io/scopes/0xinsider-com/0xinsider-com-scopes/)
+- [0xinsider Scopes](https://apis.io/scopes/0xinsider-com/0xinsider-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [0Xinsider Com Plans Pricing](https://apis.io/plans/0xinsider-com/0xinsider-com-plans-pricing/)
+- [0xinsider Plans Pricing](https://apis.io/plans/0xinsider-com/0xinsider-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [0Xinsider Com Rate Limits](https://apis.io/rate-limits/0xinsider-com/0xinsider-com-rate-limits/)
+- [0xinsider Rate Limits](https://apis.io/rate-limits/0xinsider-com/0xinsider-com-rate-limits/)
 
 ## Where to find this API
 
@@ -177,23 +203,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 74.1** — exemplar · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 68.2** — exemplar · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 72.0 |
-| Contract governance | 79.1 |
-| Operational transparency | 67.9 |
+| Discoverability | 73.3 |
+| Contract quality | 75.0 |
+| Contract governance | 35.6 |
+| Operational transparency | 64.3 |
 | Developer ergonomics | 77.9 |
-| Access clarity | 62.6 |
+| Access clarity | 57.4 |
 
-**Agent readiness 79.4** — agent-native
+**Agent readiness 75.2** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -201,10 +227,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
-| Event Surface Described | unknown |
+| Event Surface Described | yes |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | conformant |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -213,6 +239,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 36.3** — Horizontal (data, software, accessibility, platform)
 
